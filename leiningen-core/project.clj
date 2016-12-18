@@ -1,9 +1,9 @@
-(defproject leiningen-core "2.7.1"
+(defproject leiningen-core "2.7.2-SNAPSHOT"
   :url "https://github.com/technomancy/leiningen"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :description "Library for core functionality of Leiningen."
-  :dependencies [[org.clojure/clojure "1.8.0"]
+  :dependencies [[org.clojure/clojure "1.8.0-timestamp"]
                  [bultitude "0.2.8" :exclusions [org.tcrawley/dynapath]]
                  [classlojure "0.6.6"]
                  [robert/hooke "1.3.0"]
